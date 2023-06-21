@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ajuda</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: #007014;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      color: #666;
+    }
+
+    .section p {
+      color: #999;
+      display: none;
+    }
+
+    .section input[type="checkbox"]:checked ~ p {
+      display: block;
+    }
+    body {
+        background-image: url("https://www.10wallpaper.com/wallpaper/1920x1200/1303/starbucks_beverage_coffee_logo-Brand_advertising_HD_Wallpaper_1920x1200.jpg");
+        background-size: cover;
+      }
+      .section{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #00ff669d;
+        color: #000000;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      p{
+        color: black;
+      }
+  </style>
+</head>
+<body>
+  <h1>Ajuda</h1>
+
+  <div class="section">
+    <h2>Como fazer um pedido ?</h2>
+    <input type="checkbox" id="section1-toggle">
+    <label for="section1-toggle">Mostrar resposta</label>
+    <p>Primeiro escolha seu pedido, depois clique em pedir, após fazer isso, ira gerar um código para você apresentar no estabelecimento mais proximo e retirar seu pedido!</p>
+  </div>
+
+  <div class="section">
+    <h2>Seção 2</h2>
+    <input type="checkbox" id="section2-toggle">
+    <label for="section2-toggle">Mostrar resposta</label>
+    <p>Resposta da seção 2.</p>
+  </div>
+
+  <div class="section">
+    <h2>Seção 3</h2>
+    <input type="checkbox" id="section3-toggle">
+    <label for="section3-toggle">Mostrar resposta</label>
+    <p>Resposta da seção 3.</p>
+  </div>
+</body>
+</html>
